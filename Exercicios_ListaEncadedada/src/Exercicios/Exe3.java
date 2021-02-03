@@ -16,10 +16,9 @@ public class Exe3 {
 		lista.addFirst(1);
 		lista.addLast(7);
 		
-		System.out.println(lista.size());
-		
-		
-
+		Integer s = 0;
+		for (int i=0;i<lista.size();++i) {
+			s = s + lista.get(i);
+		}   System.out.println(s);
 	}
-
 }
