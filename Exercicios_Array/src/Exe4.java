@@ -13,6 +13,12 @@ public class Exe4 {
 			}
 		}
 		
+		for(i=0;i<array.length;++i) {
+			for(j=0;j<array[i].length;++j) {
+				System.out.println(i+"|"+j+ " = " + array[i][j] + "\t");
+			}   System.out.println("\n");
+		}
+		
 	}
 
 }
